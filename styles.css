@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  section, article {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .album {
+    text-align: center;
+  }
+  
+  .album-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .album-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+
+  #albumName {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+  }
+
+  #albumText {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 24px;
+    }
+  
+    section, article {
+      margin: 10px;
+      padding: 15px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    body {
+      padding: 20px;
+    }
+  
+    .profile-img {
+      max-width: 50%;
+      display: block;
+      margin: 0 auto;
+    }
+  }
